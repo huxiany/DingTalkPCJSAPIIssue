@@ -1,0 +1,15 @@
+{
+    // General settings
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "boundary",
+    "editor.insertSpaces": true,
+
+    // .NET Core Test Explorer settings
+    "dotnet-test-explorer.testProjectPath": "test/UnitTests",
+    "dotnet-test-explorer.showCodeLens": true,
+
+    // Prettier settings
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false
+}

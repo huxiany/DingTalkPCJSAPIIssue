@@ -1,0 +1,24 @@
+body {
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+
+.paginationArea {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.importingSpinArea {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    margin: 20px 0;
+}
+
+.login {
+    margin-top: 50px;
+    font-size: 20px;
+}

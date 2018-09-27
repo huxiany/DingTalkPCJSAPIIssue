@@ -1,0 +1,19 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:latest",
+        "tslint-react",
+        "tslint-eslint-rules",
+        "tslint-config-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-this-assignment": false,
+        "object-literal-sort-keys": false,
+        "no-unused-expression": [true, "allow-fast-null-checks"],
+        "radix": false,
+        "no-empty": [true, "allow-empty-functions"],
+        "max-classes-per-file": false
+    },
+    "rulesDirectory": []
+}
