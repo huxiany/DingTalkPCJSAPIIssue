@@ -2,7 +2,7 @@
 
 ## 问题描述
 
--   调用 DingTalkPC.runtime.permission.requestOperateAuthCode 会出现不能正常取到 authCode 的情况，错误码：7，错误信息：API not authed。
+-   调用 DingTalkPC.runtime.permission.requestOperateAuthCode 进行配置，首次可正常取到 authCode，进入其它界面操作后返回，不能正常取到 authCode，错误码：7，错误信息：API not authed。
     ![](./images/Error1.png)
 
 ## 基础环境准备
@@ -11,7 +11,6 @@
 
 1. .NET Core 2.1 SDK (https://www.microsoft.com/net/download/windows)
 2. Node.js (https://nodejs.org/en/)
-3. Windows 4.0 RC 版下载 (https://open-doc.dingtalk.com/docs/doc.htm?spm=a219a.7629140.0.0.3b2c4a97Ip2RH8&treeId=176&articleId=104958&docType=1)
 
 -   在钉钉后台创建一个测试企业，自建测试应用，然后配置 src/web 目录下的 appsettings 文件。
     ![](./images/AppSettings.png)
