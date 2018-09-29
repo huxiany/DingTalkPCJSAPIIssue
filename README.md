@@ -29,13 +29,13 @@
 -   直接点击"导入数据"按钮，可以正常获取 authCode；
     ![](./images/Normal.png)
 
--   切换到导出数据菜单，点击"导出数据"按钮，会跳转到下图显示的界面，然后点击 OA 工作台返回主界面，再次进入测试应用；
+-   切换到导出数据界面，点击"导出数据"按钮，会跳转到下图显示的界面，然后点击 OA 工作台返回主界面，再次进入测试应用；
     ![](./images/ExportSuccess.png)
 
--   点击“导入数据”按钮，就会不能正常取到 authCode；
+-   点击“导入数据”按钮，则会出现不能正常取到 authCode 情况；
     ![](./images/Error2.png)
 
--   导出数据界面中用到了 window.location，如果把这句删除，则不会出现上述问题。
+-   备注：导出数据界面中用到了 window.location，如果把这句删除，则不会出现上述问题。
 
 ```
    window.location = webApiUrl + printAPI;
